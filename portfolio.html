@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio Project for Fullstack Developer Nanodegree">
+    <meta name="author" content="Chris Alfonso">
+
+    <title>Portfolio Project | Chris Alfonso</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My custom styles -->
+    <style>
+    header.masthead {
+      border-bottom: 3px solid #ccc;
+      margin-bottom: 20px;
+    }
+
+    .masthead h1 {
+      font-size: 4em;
+      line-height: 0.7;
+      margin-top: 50px;
+    }
+
+    .masthead small {
+      text-transform: uppercase;
+      font-size:.4em;
+    }
+
+    .masthead img {
+      margin: -10px
+    }
+
+    #sidebar {
+      margin-bottom: 20px;
+    }
+
+    .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+      background-color: #fe3c63;
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <header class="masthead">
+        <img src="placeholder-logo.png" height="200" width="200" alt="logo">
+        <h1 class="pull-right text-right">Chris Alfonso <br>
+          <small>Fullstack Developer</small></h1>
+      </header>
+
+      <section id="sidebar" class="pull-right">
+        <ul class="nav nav-pills">
+          <li role="presentation" class="active"><i class="fa fa-linkedin" aria-hidden="true"></i> <a href="#">
+ LinkedIn</a></li>
+          <li role="presentation"><i class="fa fa-github" aria-hidden="true"></i> <a href="#">GitHub</a></li>
+          <li role="presentation"><i class="fa fa-twitter" aria-hidden="true"></i> <a href="#">Twitter</a></li>
+        </ul>
+      </section>
+
+      <section id="main">
+        <img src="http://lorempixel.com/1140/300" alt="banner" class="img-responsive">
+        <h2>Featured Work</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://lorempixel.com/360/200/technics" alt="technology" class="img-responsive">
+            <h3 class="text-uppercase">App Development</h3>
+            <p>PHP/MySQL, Python, Flask</p>
+          </div>
+          <div class="col-md-4">
+            <img src="http://lorempixel.com/360/200/business" alt="business" class="img-responsive">
+            <h3 class="text-uppercase">Sys. Administration</h3>
+            <p>Ubuntu, Apache &amp; Windows Server, IIS</p>
+         </div>
+          <div class="col-md-4">
+            <img src="http://lorempixel.com/360/200/people" alt="edTech" class="img-responsive">
+            <h3 class="text-uppercase">Education Tech</h3>
+            <p>LMS administration and development, Classroom technologies</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; 2017 Chris Alfonso</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
